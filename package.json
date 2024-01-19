@@ -1,0 +1,15 @@
+{
+  "name": "holiday_list",
+  "version": "1.0.0",
+  "description": "just a simple a holiday list application",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx tailwindcss -i ./static/css/input.css -o ./static/css/style.css",
+    "watch":"npx tailwindcss -i ./static/css/input.css -o ./static/css/style.css --watch"
+  },
+  "author": "sayanjit",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

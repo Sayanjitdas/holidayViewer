@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn-primary {
+        @apply w-44 bg-cyan-600 text-slate-200 p-3 rounded-sm font-semibold hover:bg-cyan-800 transition-all duration-300
+    }
+
+    .input-primary {
+        @apply border border-slate-400 rounded-sm p-2 w-full
+    }
+}
