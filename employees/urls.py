@@ -5,5 +5,5 @@ from employees import views
 app_name = "employee"
 
 urlpatterns = [
-    path('', views.employee_get_list,name="employee-get-list"),
+    path('', views.employee_holiday_list,name="employee-get-list"),
 ]
